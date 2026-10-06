@@ -1,6 +1,7 @@
 # modbus-examples
 
 Modbus を学ぶためのサンプル集。Python + [pymodbus](https://github.com/pymodbus-dev/pymodbus) を使う。
+各サンプルは [uv](https://docs.astral.sh/uv/) で管理していて、ディレクトリ内で `make install` (`uv sync`) すれば動く。
 
 | ディレクトリ | 内容 |
 | --- | --- |

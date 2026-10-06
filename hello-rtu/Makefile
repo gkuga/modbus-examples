@@ -1,11 +1,11 @@
 install:
-	pipenv install
+	uv sync
 
 run-serial:
-	pipenv run python virtual_serial.py
+	uv run python virtual_serial.py
 
 run-server:
-	pipenv run python server.py
+	uv run python server.py
 
 run-client:
-	pipenv run python client.py
+	uv run python client.py

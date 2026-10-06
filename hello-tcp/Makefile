@@ -1,8 +1,8 @@
 install:
-	pipenv install
+	uv sync
 
 run-server:
-	pipenv run python server.py
+	uv run python server.py
 
 run-client:
-	pipenv run python client.py
+	uv run python client.py
